@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title th:text="${reaccion}">Lugar</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
+  </head>
+  <body>
+    <main class="elaborado">
+        <header class="cabecera">
+            <h1 th:text="${reaccion}">Elaborado por Aris</h1>
+        </header>
+
+    <h3>
+      Esto es un ejemplo de la ingeniocidad y todo lo que se puede hacer con
+      Spring Boot y Thymeleaf, en este caso se ha creado una página web que
+      permite agregar, editar y eliminar lugares, mostrando la información de
+      cada lugar en tarjetas. Además, se ha incluido un enlace a esta página de
+      "Elaborado por" para mostrar quién ha desarrollado la aplicación.
+    </h3>
+
+      <a th:href="@{/}" class="boton volver">Volver al inicio</a>
+    
+    </main>
+    <footer class="pie">SENA · ADSO · Ficha 3230489</footer>
+  </body>
+</html>
