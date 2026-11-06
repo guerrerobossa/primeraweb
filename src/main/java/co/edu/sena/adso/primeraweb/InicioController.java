@@ -45,7 +45,7 @@ public class InicioController {
     public String elaboradopor(Model model) {
         model.addAttribute("lugar", new Lugar());
         model.addAttribute("accion", "Nuevo lugar");
-        model.addAttribute("reaccion", "Informacion");
+        model.addAttribute("reaccion", "Elaborado  por Aris Guerrero");
         return "elaboradopor";
     }
 
